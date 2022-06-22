@@ -4,7 +4,7 @@
   "description": "coding challenge for BW",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server",
+    "server": "nodemon --ignore \"example.json\" server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Rodriguez",
@@ -15,8 +15,10 @@
     "express": "^4.18.1",
     "express-validator": "^6.14.1",
     "jsonwebtoken": "^8.5.1",
+    "lowdb": "^3.0.0",
     "request": "^2.88.2"
   },
+  "type": "module",
   "devDependencies": {
     "concurrently": "^7.2.2",
     "nodemon": "^2.0.16"

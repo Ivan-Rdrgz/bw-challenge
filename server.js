@@ -1,10 +1,19 @@
-const express = require('express')
+import express from 'express'
 
-const app = express()
-app.get("/", (req,res)=>{
-    res.send('API Running')
-})
+import {createConection} from "./config/database.js"
+import users from "./api/users.js"
+import auth from "./api/auth.js"
 
+// Create connection to lowdb 
+createConection()
+
+// Initialize express and declare PORT number 
+const app = express();
 const PORT = process.env.PORT || 5000
+
+// Define Routes
+app.use(express.json());
+app.use('/api/users', users);
+app.use('/api/auth', auth);
 
 app.listen(PORT, () => console.log(`server running on port ${PORT}`));
