@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "_id": "d4e0d20c793a01019204",
+      "guid": "82c7aaee-1ffc-4cb6-bf5c-2172c3895dc1",
+      "isActive": true,
+      "balance": "$38,569,420.31",
+      "picture": "https://via.placeholder.com/230x230",
+      "age": "",
+      "eyecolor": "",
+      "name": {
+        "first": "ivan",
+        "last": "Rodriguez"
+      },
+      "company": "",
+      "email": "ivan@ivan.com",
+      "salt": "$2a$10$Ivki1ZnKUpXz3ZK0ZzeNe.",
+      "password": "$2a$10$Ivki1ZnKUpXz3ZK0ZzeNe.db00/C9W9sA0Ks603o09yr1jQgeWeoe",
+      "phone": "",
+      "address": ""
+    }
+  ]
+}
+

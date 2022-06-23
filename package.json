@@ -4,8 +4,10 @@
   "description": "coding challenge for BW",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon --ignore \"example.json\" server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon --ignore \"database.json\" server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
   },
   "author": "Ivan Rodriguez",
   "license": "MIT",
@@ -16,7 +18,8 @@
     "express-validator": "^6.14.1",
     "jsonwebtoken": "^8.5.1",
     "lowdb": "^3.0.0",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
   },
   "type": "module",
   "devDependencies": {

@@ -1,3 +1,4 @@
 {
-    "lodbConfig":""
+    "lodbConfig":"",
+    "jwtSecret": "secret"
 }
