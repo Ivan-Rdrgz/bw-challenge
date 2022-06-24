@@ -23,13 +23,14 @@ install client dependancies (takes a minute...)
 ```
 $ npm install
 ``` 
-go back to main directory and run the following command 
+go back to main directory
 ```
 $ cd .. 
 ``` 
+run the following command
 ```
 npm run dev 
-``
+```
 
 Client should launch on http://localhost:3000/
 
