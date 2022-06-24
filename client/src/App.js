@@ -30,6 +30,9 @@ const App = () => {
           <section className="container" style={{ marginTop: "5px" }}>
             <Alert />
             <Routes>
+              <Route exact path="/" element={<PrivateRoute />}>
+                <Route exact path="/" element={<Dashboard />} />
+              </Route>
               <Route exact path="/login" element={<Login />} />
               <Route exact path="/register" element={<Register />} />
               <Route exact path="/dashboard" element={<PrivateRoute />}>
