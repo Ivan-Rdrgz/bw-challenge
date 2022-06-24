@@ -8,12 +8,14 @@ import auth from "./api/auth.js"
 createConection()
 
 // Initialize express and declare PORT number 
-const app = express();
+const app = express()
 const PORT = process.env.PORT || 5000
 
-// Define Routes
-app.use(express.json());
-app.use('/api/users', users);
-app.use('/api/auth', auth);
+// Initialize middleware
+app.use(express.json({extended:false}))
 
-app.listen(PORT, () => console.log(`server running on port ${PORT}`));
+// Define Routes
+app.use('/api/users', users)
+app.use('/api/auth', auth)
+
+app.listen(PORT, () => console.log(`server running on port ${PORT}`))
