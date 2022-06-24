@@ -7,7 +7,8 @@
     "server": "nodemon --ignore \"database.json\" server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server \" \"npm run client\""
+    "dev": "concurrently \"npm run server \" \"npm run client\"",
+    "postinstall": "cd client && npm install"
   },
   "author": "Ivan Rodriguez",
   "license": "MIT",
@@ -18,6 +19,7 @@
     "express-validator": "^6.14.1",
     "jsonwebtoken": "^8.5.1",
     "lowdb": "^3.0.0",
+    "postinstall": "^0.7.4",
     "request": "^2.88.2",
     "uuid": "^8.3.2"
   },
