@@ -1,6 +1,37 @@
 
-# Running project
+# BW coding challenge 
 
+## Running project 
+
+clone repo
+```
+$ git clone https://github.com/Ivan-Rdrgz/bw-challenge.git 
+```
+cd into project
+```
+$ cd bw-challenge 
+```
+install server dependancies
+```
+$ npm install
+```
+go into client folder 
+```
+$ cd client
+```
+install client dependancies (takes a minute...)
+```
+$ npm install
+``` 
+go back to main directory and run the following command 
+```
+$ cd .. 
+``` 
+```
+npm run dev 
+``
+
+Client should launch on http://localhost:3000/
 
 
 ## Database Structure
