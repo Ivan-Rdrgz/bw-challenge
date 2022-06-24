@@ -1,8 +1,7 @@
+
 # Running project
 
-<img width="798" alt="Screen Shot 2022-06-24 at 1 25 27 PM" src="https://user-images.githubusercontent.com/24576662/175662497-d8dbb69d-fe39-46cd-b4cc-a34e910d7dd4.png">
-<img width="803" alt="Screen Shot 2022-06-24 at 1 26 43 PM" src="https://user-images.githubusercontent.com/24576662/175662501-289433b6-478e-4aad-8442-fe833f56f1d0.png">
-<img width="801" alt="Screen Shot 2022-06-24 at 1 27 06 PM" src="https://user-images.githubusercontent.com/24576662/175662507-ad9a273e-956e-446a-93e5-47147fa7861f.png">
+
 
 ## Database Structure
 
@@ -50,3 +49,8 @@ Some fields are optional and some are required.
 * Fully responsive UI :white_check_mark:
 * Unit Tests of the API
 * Functional Tests of the UI
+
+<img width="802" alt="Screen Shot 2022-06-24 at 1 29 51 PM" src="https://user-images.githubusercontent.com/24576662/175662864-17dba472-ad54-42e5-9721-98970551342e.png">
+<img width="798" alt="Screen Shot 2022-06-24 at 1 25 27 PM" src="https://user-images.githubusercontent.com/24576662/175662497-d8dbb69d-fe39-46cd-b4cc-a34e910d7dd4.png">
+<img width="803" alt="Screen Shot 2022-06-24 at 1 26 43 PM" src="https://user-images.githubusercontent.com/24576662/175662501-289433b6-478e-4aad-8442-fe833f56f1d0.png">
+<img width="801" alt="Screen Shot 2022-06-24 at 1 27 06 PM" src="https://user-images.githubusercontent.com/24576662/175662507-ad9a273e-956e-446a-93e5-47147fa7861f.png">
