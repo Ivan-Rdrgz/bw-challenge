@@ -11,22 +11,10 @@ cd into project
 ```
 $ cd bw-challenge 
 ```
-install server dependancies
+install dependancies, could take a minute
 ```
 $ npm install
 ```
-go into client folder 
-```
-$ cd client
-```
-install client dependancies (takes a minute...)
-```
-$ npm install
-``` 
-go back to main directory
-```
-$ cd .. 
-``` 
 run the following command
 ```
 npm run dev 
