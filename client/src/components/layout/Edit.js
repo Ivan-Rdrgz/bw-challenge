@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {useState, useEffect} from 'react'
-import {Link,Navigate, NavLink, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {setAlert} from '../../actions/alert'
 import {updateUser,loadUser} from '../../actions/auth'
